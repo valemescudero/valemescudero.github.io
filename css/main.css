@@ -33,3 +33,7 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+#component-profile i[data-v-11ef6383] {
+    font-size: 44px;
+    color: slateblue;
+}
