@@ -10,12 +10,28 @@
     background: #121212;
     color: #fff;
 }
+#component-profile[data-v-11ef6383] {
+    height: calc(100vh - 30px);
+}
 .v-application {
     font-family: "Roboto",sans-serif;
     line-height: 1.5;
 }
 .v-application p {
     margin-bottom: 16px;
+}
+.v-application .align-center {
+    align-items: center!important;
+}
+.v-application .justify-center {
+    justify-content: center!important;
+}
+
+.v-application .flex-column {
+    flex-direction: column!important;
+}
+.v-application .d-flex {
+    display: flex!important;
 }
 h1 {
     display: block;
