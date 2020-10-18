@@ -6,27 +6,11 @@
     padding: 0;
     margin: 0;
 }
-*, :after, :before {
-    background-repeat: no-repeat;
-    box-sizing: inherit;
-}
-.theme--dark.v-application {
+.theme--dark{
     background: #121212;
     color: #fff;
 }
-.container {
-    width: 100%;
-    padding: 12px;
-    margin-right: auto;
-    margin-left: auto;
-}
-div {
-    display: block;
-}
-#component-profile[data-v-11ef6383] {
-    height: calc(100vh - 30px);
-}
-.v-application--wrap {
+.wrap {
     flex: 1 1 auto;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -36,43 +20,55 @@ div {
     max-width: 100%;
     position: relative;
 }
-.v-application {
+.container {
+    width: 100%;
+    padding: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.theme--dark .d-flex {
+    display: flex!important;
+}
+.theme--dark .flex-column {
+    flex-direction: column!important;
+}
+#profile {
+    height: calc(100vh - 30px);
+}
+#profile #profile--pic {
+    background-image: url("https://avatars0.githubusercontent.com/u/57600998?s=460&u=e7eb61b873b79102a3f705f5c125835ac16eb9e9&v=4");
+  background-size: cover;
+    min-height: 250px;
+    min-width: 250px;
+    border-radius: 250px;
+}
+.theme--dark {
     font-family: "Roboto",sans-serif;
     line-height: 1.5;
 }
-.v-application p {
+.theme--dark p {
     margin-bottom: 16px;
 }
-.v-application .align-center {
+.theme--dark .align-center {
     align-items: center!important;
 }
-.v-application .justify-center {
+.theme--dark .justify-center {
     justify-content: center!important;
-}
-
-.v-application .flex-column {
-    flex-direction: column!important;
-}
-.v-application .d-flex {
-    display: flex!important;
 }
 h1 {
     display: block;
-    font-size: 2em;
+    font-size: 2.5em;
     margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: bold;
 }
 p {
     display: block;
-    margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-#component-profile i[data-v-11ef6383] {
+#profile i {
     font-size: 44px;
     color: slateblue;
 }
