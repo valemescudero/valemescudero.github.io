@@ -7,7 +7,7 @@
     margin: 0;
 }
 .theme--dark{
-    background: #121212;
+    background: #0f1719;
     color: #fff;
 }
 .wrap {
@@ -61,6 +61,7 @@ h1 {
     margin-block-start: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    color: #03f39c;
 }
 p {
     display: block;
@@ -70,5 +71,5 @@ p {
 }
 #profile i {
     font-size: 44px;
-    color: slateblue;
+    color: #04b370;
 }
